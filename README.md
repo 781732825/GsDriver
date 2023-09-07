@@ -30,7 +30,7 @@
 
 6. Handle power
 
-7.Window backshot
+7. Window backshot
 
 #2. Drive communication
 

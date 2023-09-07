@@ -1,7 +1,7 @@
 # GsDriver
     #某个上市驱动源码（残缺） 已经开源
 # 1.驱动相关功能  -分析
-      #1.驱动读写 使用的MmCopyVirtualMemory进行读写操作
+      1.驱动读写 使用的MmCopyVirtualMemory进行读写操作
       2.注入 使用驱动回调 pte操作内存（隐藏）
       3.进程回调保护 
       4.获取进程模块

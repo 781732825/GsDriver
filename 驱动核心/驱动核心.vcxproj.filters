@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{56a1b0e5-128f-4d3a-89a6-283454913889}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="资源文件\NativeEnums.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="资源文件\NativeStructs.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="全局变量.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="驱动核心.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="内核发包.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="键鼠模拟.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="进程回调.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="导出函数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="反反作弊.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="句柄提权.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="通讯回调.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="注入代码.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="注入回调.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="自定声明.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="过机器码.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="全局变量.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="驱动核心.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="内核发包.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="键鼠模拟.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="进程回调.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="导出函数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="反反作弊.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="句柄提权.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="注入回调.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="通讯回调.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="过机器码.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+#pragma once
+
+extern PHIDE_MEMORY_BUFFER pHideMemoryList;
+
+extern PHOOK_NOTIFY_BUFFER pProcessNotifyHookBuffer;
+
+auto WIN7_MiFindNodeOrParent(WIN7_PMM_AVL_TABLE, ULONG_PTR, WIN7_PMM_AVL_NODE*)->ULONG;
+
+auto WIN8_MiFindNodeOrParent(WIN8_PMM_AVL_TABLE, ULONG_PTR, WIN8_PMM_AVL_NODE*)->ULONG;
+
+auto WIN8X_MiFindNodeOrParent(WIN8X_PMM_AVL_TABLE, ULONG_PTR, WIN8X_PMM_AVL_NODE*)->ULONG;
+
+auto WIN1X_MiFindNodeOrParent(WIN1X_PMM_AVL_TABLE, ULONG_PTR, WIN1X_PMM_AVL_NODE*)->ULONG;
+
+auto AddMemoryItem(PEPROCESS, UINT64, SIZE_T)->NTSTATUS;
+
+auto DelMemoryItem(PEPROCESS)->NTSTATUS;
+
+auto ProcessNotifyInit(ULONG)->NTSTATUS;

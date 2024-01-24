@@ -11,29 +11,5 @@
   # 2.驱动通讯
       使用注册表 注册钩子跳板 用来通讯
 
-
-# GsDriver
-
-# A listed driver source code (incomplete)
-
-#1. Drive related functions - analysis
-
-1. Drive MmCopyVirtualMemory used for read and write operations
-
-2. Injection using driver callback pte operation memory (hidden)
-
-3. Process callback protection
-
-4. Obtain the process module
-
-5. Drive mouse key simulation using regular kbdclass mouclass simulation
-
-6. Handle power
-
-7. Window backshot
-
-#2. Drive communication
-
-Use the registry registry Hook springboard for communication
   
   
